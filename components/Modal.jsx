@@ -10,10 +10,11 @@ function Modal({
     show,
     nick,
     setNick,
+    currId,
 }) {
     const [error, setError] = useState("");
-    const currId = 32;
-    const srvId = "5726a865";
+    // const currId = currId;
+    const srvId = "b8efbc28";
 
     const validateNick = () => {
         if (nick.length < 3) {

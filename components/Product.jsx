@@ -8,17 +8,19 @@ function Product({
     setRank,
     setMode,
     section,
+    currId,
+    setCurrId,
 }) {
     const [color, setColor] = useState("");
     const [text, setText] = useState("");
     const [font, setFont] = useState("text-gray-800");
     useEffect(() => {
         const lowercase = title.toLowerCase();
-        if (lowercase === "elita") {
+        if (lowercase === "legenda") {
             setColor("bg-amber-500");
             setText("text-amber-400");
             setFont("text-amber-700");
-        } else if (lowercase === "sponsor") {
+        } else if (lowercase === "elita") {
             setColor("bg-purple-500");
             setText("text-purple-400");
             setFont("text-purple-900");
@@ -30,6 +32,10 @@ function Product({
             setColor("bg-blue-500");
             setText("text-blue-400");
             setFont("text-blue-800");
+        } else if (lowercase === "unban") {
+            setColor("bg-green-500");
+            setText("text-green-400");
+            setFont("text-green-800");
         }
     }, []);
     return (
@@ -42,6 +48,7 @@ function Product({
                     setMode(section);
                     setValue(cost);
                     setIsOpen(true);
+                    setCurrId(currId);
                 }}
                 className={`rounded-md ${color} px-4 py-2 font-semibold ${font} hover:scale-105 transition duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-opacity-75`}
             >
