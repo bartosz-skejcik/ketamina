@@ -16,26 +16,34 @@ function Product({
     const [font, setFont] = useState("text-gray-800");
     useEffect(() => {
         const lowercase = title.toLowerCase();
-        if (lowercase === "legenda") {
-            setColor("bg-amber-500");
-            setText("text-amber-400");
-            setFont("text-amber-700");
-        } else if (lowercase === "elita") {
-            setColor("bg-purple-500");
-            setText("text-purple-400");
-            setFont("text-purple-900");
-        } else if (lowercase === "svip") {
-            setColor("bg-pink-500");
-            setText("text-pink-400");
-            setFont("text-pink-900");
-        } else if (lowercase === "vip") {
-            setColor("bg-blue-500");
-            setText("text-blue-400");
-            setFont("text-blue-800");
-        } else if (lowercase === "unban") {
-            setColor("bg-green-500");
-            setText("text-green-400");
-            setFont("text-green-800");
+        switch (lowercase) {
+            case "legenda":
+                setColor("bg-amber-500");
+                setText("text-amber-400");
+                setFont("text-amber-700");
+                break;
+            case "elita":
+                setColor("bg-purple-500");
+                setText("text-purple-400");
+                setFont("text-purple-900");
+                break;
+            case "svip":
+                setColor("bg-pink-500");
+                setText("text-pink-400");
+                setFont("text-pink-900");
+                break;
+            case "vip":
+                setColor("bg-blue-500");
+                setText("text-blue-400");
+                setFont("text-blue-800");
+                break;
+            case "unban":
+                setColor("bg-green-500");
+                setText("text-green-400");
+                setFont("text-green-800");
+                break;
+            default:
+                break;
         }
     }, []);
     return (
