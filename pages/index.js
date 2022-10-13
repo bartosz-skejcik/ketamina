@@ -13,6 +13,7 @@ export default function Home() {
     const [show, setShow] = useState(false);
     const [rank, setRank] = useState("");
     let [isOpen, setIsOpen] = useState(false);
+    let [currId, setCurrId] = useState(0);
     return (
         <div className="flex flex-col items-center justify-center h-full overflow-hidden bg-slate-900">
             <Head>
@@ -31,6 +32,7 @@ export default function Home() {
                 setShow={setShow}
                 show={show}
                 nick={nick}
+                currId={currId}
                 setNick={setNick}
             />
             <div className="w-screen h-screen flex flex-col justify-center items-center space-y-10 pt-6 text-center">
@@ -50,26 +52,30 @@ export default function Home() {
                 className="flex flex-col items-center justify-center w-full text-gray-300 mt-10"
             >
                 <h1 className="text-5xl text-yellow-500 font-bold mb-10">
-                    Anarchia SMP
+                    Box PVP
                 </h1>
                 <div className="flex flex-row items-center justify-center w-full space-x-28">
                     <Product
                         setIsOpen={setIsOpen}
                         setValue={setValue}
-                        title={"Elita"}
-                        cost={20}
+                        title={"Legenda"}
+                        cost={80}
                         setRank={setRank}
                         setMode={setMode}
                         section={"anarchiasmp"}
+                        currId={44}
+                        setCurrId={setCurrId}
                     />
                     <Product
                         setIsOpen={setIsOpen}
                         setValue={setValue}
-                        title={"Sponsor"}
-                        cost={15}
+                        title={"Elita"}
+                        cost={30}
                         setRank={setRank}
                         setMode={setMode}
                         section={"anarchiasmp"}
+                        currId={45}
+                        setCurrId={setCurrId}
                     />
                     <Product
                         setIsOpen={setIsOpen}
@@ -79,6 +85,8 @@ export default function Home() {
                         setRank={setRank}
                         setMode={setMode}
                         section={"anarchiasmp"}
+                        currId={46}
+                        setCurrId={setCurrId}
                     />
                     <Product
                         setIsOpen={setIsOpen}
@@ -88,88 +96,19 @@ export default function Home() {
                         setRank={setRank}
                         setMode={setMode}
                         section={"anarchiasmp"}
-                    />
-                </div>
-                <h1 className="text-5xl text-green-500 font-bold my-10">
-                    Survival
-                </h1>
-                <div className="flex flex-row items-center justify-center w-full space-x-28">
-                    <Product
-                        setIsOpen={setIsOpen}
-                        setValue={setValue}
-                        title={"Elita"}
-                        cost={20}
-                        setRank={setRank}
-                        setMode={setMode}
-                        section={"survival"}
+                        currId={47}
+                        setCurrId={setCurrId}
                     />
                     <Product
                         setIsOpen={setIsOpen}
                         setValue={setValue}
-                        title={"Sponsor"}
-                        cost={15}
-                        setRank={setRank}
-                        setMode={setMode}
-                        section={"survival"}
-                    />
-                    <Product
-                        setIsOpen={setIsOpen}
-                        setValue={setValue}
-                        title={"SVIP"}
+                        title={"UNBAN"}
                         cost={10}
                         setRank={setRank}
                         setMode={setMode}
-                        section={"survival"}
-                    />
-                    <Product
-                        setIsOpen={setIsOpen}
-                        setValue={setValue}
-                        title={"VIP"}
-                        cost={5}
-                        setRank={setRank}
-                        setMode={setMode}
-                        section={"survival"}
-                    />
-                </div>
-                <h1 className="text-5xl text-red-500 font-bold my-10">
-                    Drop SMP
-                </h1>
-                <div className="flex flex-row items-center justify-center w-full space-x-28">
-                    <Product
-                        setIsOpen={setIsOpen}
-                        setValue={setValue}
-                        title={"Elita"}
-                        cost={20}
-                        setRank={setRank}
-                        setMode={setMode}
-                        section={"dropsmp"}
-                    />
-                    <Product
-                        setIsOpen={setIsOpen}
-                        setValue={setValue}
-                        title={"Sponsor"}
-                        cost={15}
-                        setRank={setRank}
-                        setMode={setMode}
-                        section={"dropsmp"}
-                    />
-                    <Product
-                        setIsOpen={setIsOpen}
-                        setValue={setValue}
-                        title={"SVIP"}
-                        cost={10}
-                        setRank={setRank}
-                        setMode={setMode}
-                        section={"dropsmp"}
-                    />
-                    <Product
-                        setIsOpen={setIsOpen}
-                        setValue={setValue}
-                        title={"VIP"}
-                        cost={5}
-                        setRank={setRank}
-                        setMode={setMode}
-                        section={"dropsmp"}
+                        section={"anarchiasmp"}
+                        currId={52}
+                        setCurrId={setCurrId}
                     />
                 </div>
             </section>
