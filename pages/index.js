@@ -58,6 +58,17 @@ export default function Home() {
                     <Product
                         setIsOpen={setIsOpen}
                         setValue={setValue}
+                        title={"XAMC"}
+                        cost={100}
+                        setRank={setRank}
+                        setMode={setMode}
+                        section={"boxpvp"}
+                        currId={53}
+                        setCurrId={setCurrId}
+                    />
+                    <Product
+                        setIsOpen={setIsOpen}
+                        setValue={setValue}
                         title={"Legenda"}
                         cost={80}
                         setRank={setRank}
