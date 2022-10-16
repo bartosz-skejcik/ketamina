@@ -17,6 +17,11 @@ function Product({
     useEffect(() => {
         const lowercase = title.toLowerCase();
         switch (lowercase) {
+            case "xamc":
+                setColor("bg-red-500");
+                setText("text-red-400");
+                setFont("text-red-700");
+                break;
             case "legenda":
                 setColor("bg-amber-500");
                 setText("text-amber-400");
