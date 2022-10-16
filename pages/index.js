@@ -62,7 +62,7 @@ export default function Home() {
                         cost={80}
                         setRank={setRank}
                         setMode={setMode}
-                        section={"anarchiasmp"}
+                        section={"boxpvp"}
                         currId={44}
                         setCurrId={setCurrId}
                     />
@@ -73,7 +73,7 @@ export default function Home() {
                         cost={30}
                         setRank={setRank}
                         setMode={setMode}
-                        section={"anarchiasmp"}
+                        section={"boxpvp"}
                         currId={45}
                         setCurrId={setCurrId}
                     />
@@ -84,7 +84,7 @@ export default function Home() {
                         cost={10}
                         setRank={setRank}
                         setMode={setMode}
-                        section={"anarchiasmp"}
+                        section={"boxpvp"}
                         currId={46}
                         setCurrId={setCurrId}
                     />
@@ -95,7 +95,7 @@ export default function Home() {
                         cost={5}
                         setRank={setRank}
                         setMode={setMode}
-                        section={"anarchiasmp"}
+                        section={"boxpvp"}
                         currId={47}
                         setCurrId={setCurrId}
                     />
@@ -106,7 +106,7 @@ export default function Home() {
                         cost={10}
                         setRank={setRank}
                         setMode={setMode}
-                        section={"anarchiasmp"}
+                        section={"boxpvp"}
                         currId={52}
                         setCurrId={setCurrId}
                     />
