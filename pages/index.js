@@ -59,7 +59,7 @@ export default function Home() {
                         setIsOpen={setIsOpen}
                         setValue={setValue}
                         title={"XAMC"}
-                        cost={100}
+                        cost={50}
                         setRank={setRank}
                         setMode={setMode}
                         section={"boxpvp"}
@@ -70,7 +70,7 @@ export default function Home() {
                         setIsOpen={setIsOpen}
                         setValue={setValue}
                         title={"Legenda"}
-                        cost={80}
+                        cost={40}
                         setRank={setRank}
                         setMode={setMode}
                         section={"boxpvp"}
@@ -81,7 +81,7 @@ export default function Home() {
                         setIsOpen={setIsOpen}
                         setValue={setValue}
                         title={"Elita"}
-                        cost={30}
+                        cost={15}
                         setRank={setRank}
                         setMode={setMode}
                         section={"boxpvp"}
@@ -92,7 +92,7 @@ export default function Home() {
                         setIsOpen={setIsOpen}
                         setValue={setValue}
                         title={"SVIP"}
-                        cost={10}
+                        cost={5}
                         setRank={setRank}
                         setMode={setMode}
                         section={"boxpvp"}
@@ -103,7 +103,7 @@ export default function Home() {
                         setIsOpen={setIsOpen}
                         setValue={setValue}
                         title={"VIP"}
-                        cost={5}
+                        cost={2.5}
                         setRank={setRank}
                         setMode={setMode}
                         section={"boxpvp"}
@@ -114,7 +114,7 @@ export default function Home() {
                         setIsOpen={setIsOpen}
                         setValue={setValue}
                         title={"UNBAN"}
-                        cost={10}
+                        cost={5}
                         setRank={setRank}
                         setMode={setMode}
                         section={"boxpvp"}
